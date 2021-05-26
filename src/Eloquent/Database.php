@@ -73,7 +73,7 @@ class Database implements ConnectionInterface
      *
      * @return \Illuminate\Database\Query\Builder
      */
-    public function table($table)
+    public function table($table, $as = null)
     {
         $processor = $this->getPostProcessor();
 
@@ -470,4 +470,6 @@ class Database implements ConnectionInterface
     {
         return Arr::get($this->config, $option);
     }
+
+    public function getDatabaseName(){}
 }
