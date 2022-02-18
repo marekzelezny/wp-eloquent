@@ -6,8 +6,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "illuminate/database": "dev-master",
-        "illuminate/pagination": "dev-master"
+        "illuminate/database": "8.x",
+        "illuminate/pagination": "8.x"
     },
     "license": "GPL-2.0-or-later",
     "authors": [
